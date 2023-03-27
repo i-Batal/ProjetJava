@@ -1,0 +1,10 @@
+public class Calcul {
+	
+	public static int somme(int...nombres) {
+		int somme = 0;
+		for(int i : nombres) {
+			somme += i;
+		}
+		return somme;
+	}
+}

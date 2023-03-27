@@ -1,0 +1,16 @@
+package fr.ilyess.varangs;
+
+public class ExoVarangs {
+
+	public static void afficherNnombre(int... nombre) {
+			for(int i : nombre) {
+				System.out.println(nombre);
+			}
+	}
+	
+	
+	public static void main(String[] args) {
+		afficherNnombre(1,5,6,9,8,5,4,5);
+	}
+
+}

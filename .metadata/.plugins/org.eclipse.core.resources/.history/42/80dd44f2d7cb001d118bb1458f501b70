@@ -1,0 +1,10 @@
+package fr.ilyess.varangs;
+
+public class ExoVarangs {
+
+	public static void main(String[] args) {
+		TODO();
+
+	}
+
+}

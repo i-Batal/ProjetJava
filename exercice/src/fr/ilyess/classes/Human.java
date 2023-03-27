@@ -1,0 +1,24 @@
+package fr.ilyess.classes;
+
+
+class Human{
+	
+	int age;
+	int poids;
+	String lieu_de_naissance;
+	
+	public Human(int age,int poids,String lieu) {
+		this.age = age;
+		this.poids = poids;
+		this.lieu_de_naissance = lieu;
+	}
+	public Human() {
+		this.age = 21;
+		this.poids = 77;
+		this.lieu_de_naissance = "Vitry-sur-Seine";
+	}
+	
+	void marche(){
+		System.out.println(this.poids + " marche droit !");
+	}
+}

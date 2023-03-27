@@ -1,0 +1,9 @@
+package fr.ilyess.classes;
+
+public class Main {
+	public static void main(String[] args) {
+		Human ilyess = new Human();
+		System.out.println(ilyess.age);
+		
+	}
+}

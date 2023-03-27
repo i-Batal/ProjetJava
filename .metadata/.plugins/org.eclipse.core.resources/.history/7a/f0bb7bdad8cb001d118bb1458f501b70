@@ -1,0 +1,16 @@
+package fr.ilyess.varangs;
+
+public class ExoVarangs {
+
+	public static void afficherNnombre(String... mots) {
+			for(String i : mots) {
+				System.out.println(i);
+			}
+	}
+	
+	
+	public static void main(String[] args) {
+		afficherNnombre("ouai","c'est","comment ?");
+	}
+
+}

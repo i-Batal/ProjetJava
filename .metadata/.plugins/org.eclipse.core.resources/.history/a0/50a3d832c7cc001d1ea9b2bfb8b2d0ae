@@ -1,0 +1,10 @@
+package ayoub;
+
+public class Ayoub {
+
+	public static void main(String[] args) {
+		TODO();
+
+	}
+
+}
