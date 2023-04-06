@@ -1,23 +1,15 @@
 package org.ilyess.neufquatre;
 
 public class User {
-	private String name;
-	private int age;
+	private String ville;
+
+	public String getVille() {
+		return ville;
+	}
+
+	public void setVille(String ville) {
+		this.ville = ville;
+	}
 	
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-
-	public String getName() {
-		return name;
-	}
-
-
-	public void setName(String name) {
-		this.name = name;
-	}
 
 }
